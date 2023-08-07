@@ -1,4 +1,43 @@
+.oscuro{ 
+    background-color: #1f1f1f; 
+    color: #f1eded; 
+}
+
+
+header {
+    background-color: rgba(0,0,0);
+    width: 100%;
+    position: fixed;
+    padding: 20px;
+    margin: 0px;
+    font-size: 400;
+}
 .titulo{
-    background-color: red;
-    color: aqua;
+    font-size: 30px;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#oscuroclaro{
+    border-radius: 100px;
+    border-color: azure;
+    float: right;
+}
+.articulo{
+    margin: 0px 150px 30px 150px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 20px;
+    padding: 20px;
+    resize: none;
+    /* background-color: red; */
+}
+#up{
+    height: 85px;
+}
+.imagen1{
+    float: left;
 }

@@ -4,22 +4,50 @@
     <title>Prortafolio</title>
     <link rel="stylesheet" href="style.css"> 
 </head>
-<body>
-    <h1 class="titulo"> PORTAFOLIO DE MAURO RODRIGUEZ </h1>
-    <h2> Estudios </h2>
-    <!--con span referenciamos el texto que que este dentro de span-->
-    <p> En esta parte iria lo de <span style="color:red">  estudios que realice</span> durante todo el año </p>
-    <img src="ima/imagen1.jpg" width="200"/>
-    
-    <form>
-        <label for="nombre"> Nombre</label>
-        <input value="valor" type="text" id="nombre" name="nombre" placeholder="Nombre">
-    </form>
-    
-    <!--Este es un ejemplo de uso de cometario para practicar.-->
-    <hr>
-    <h2> En esta parte iria los ling de mi githup y sitios web</h2>
-    <a target="_blank" href="https://github.com/Mauro-drison"> ir a github </a>
+<body class="oscuro">
+    <header>
+        <p  class="titulo"> PORTAFOLIO DE MAURO RODRIGUEZ</p>
+    </header>
 
+    <section>
+        <div id="up"></div>
+        <button id="oscuroclaro" type="button"onclick="cambiarModo()">Oscuro / Claro</button>
+        
+        <article class="articulo">
+            <h2> Estudios </h2>
+            <!--con span referenciamos el texto que que este dentro de span-->
+            <p> En esta parte iria lo de <span style="color:red">  estudios que realice</span> durante todo el año </p>
+            <img id="imagen1" src="ima/imagen1.jpg" width="200"/>
+     
+        </article>
+        <article class="articulo">
+            <form>
+            <label for="nombre"> Nombre</label>
+            <input value="valor" type="text" id="nombre" name="nombre" placeholder="Nombre">
+            <br>
+            <label for="comentario">comentatio</label>
+            <textarea cols="50" rows="10" id="comentario"> este es el valor por defecto</textarea>
+            <br>
+            <button type="submit"> botón </button>
+            </form>
+    
+        </article>
+        <footer>
+            <!--Este es un ejemplo de uso de cometario para practicar.-->
+            <hr>
+            <h2> En esta parte iria los ling de mi githup y sitios web</h2>
+            <a href="mailto:mr3453195@gmail.com"> correo maruo</a>
+            <br>
+            <a target="_blank" href="https://github.com/Mauro-drison"> ir a github </a>
+
+        </footer>
+    </section>
+    <script type="text/javascript"> 
+        function cambiarModo() { 
+          var cuerpoweb = document.body; 
+          cuerpoweb.classList.toggle("oscuro"); 
+        } 
+      </script>
 </body>
 </html>
+
