@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <title>Prortafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css"> 
 </head>
 <body class="oscuro">
@@ -14,31 +17,100 @@
         <button id="oscuroclaro" type="button"onclick="cambiarModo()">Oscuro / Claro</button>
         
         <article class="articulo">
-            <h2> Estudios </h2>
-            <!--con span referenciamos el texto que que este dentro de span-->
-            <p> En esta parte iria lo de <span style="color:red">  estudios que realice</span> durante todo el año </p>
-            <img id="imagen1" src="ima/imagen1.jpg" width="200"/>
-     
+            <div>
+
+                <img class="rigth" src="ima/imagen1.jpg" width="200"/>
+            </div>
+            <h2> Emerson Mauro Rodriguez </h2>
+            <br>
+            <p> Desarrollo Web Full stack </p>
+            <br>
+            <p>Descripción sobre mi:</p>
+            <br>
+            <p>Vivo en Tunuyán, me gusta estar en mi hogar, hacer deportes como el fútbol, en mi tiempo libre me gusta jugar, soy bueno escuchando y aportando ideas si es necesario.</p>            
+            <br>
+            <p>Habilidades:</p>
+            <br>
+            <div class="lista">
+                <ul>
+                    <li>-Flutter(go_router, riverpod, getx, dio)</li>
+                    <li>-Dart</li>
+                    <li>-Python</li>
+                    <li>-Flask (ORM-SQLAlchemy)</li>
+                    <li>-Docker (Docker-compose)</li>
+                    <li>-Mysql</li>
+                    <li>-MongoDB</li>
+                    <li>-Manejo de Linux(Comandos, script, ssh)</li>
+                    <li>-Qt5</li>
+                    <li>-Tkinter</li>
+                    <li>-Html</li>
+                    <li>-Css</li>
+                    <li>-Firebase</li>
+                    <li>-Nginx</li>
+                </ul>
+            </div>
+            
         </article>
         <article class="articulo">
             <form>
-            <label for="nombre"> Nombre</label>
-            <input value="valor" type="text" id="nombre" name="nombre" placeholder="Nombre">
+            <h2>
+                Formación académica:
+            </h2>
             <br>
-            <label for="comentario">comentatio</label>
-            <textarea cols="50" rows="10" id="comentario"> este es el valor por defecto</textarea>
-            <br>
-            <button type="submit"> botón </button>
+            <div class="lista">
+                <ul>
+                    <li>
+                        Técnico Superior en Desarrollo de Software en el Terciario “IES 9-010 ROSARIO VERA PEÑALOZA”
+                    </li>
+                </ul>
+                <ul class="listaEnLista">
+                    <li>Paradigma de la programación(python, dart)</li>
+                    <li>Arquitectura de computadoras.</li>
+                    <li>Inglés técnico.</li>
+                    <li>Lógica computacional.</li>
+                    <li>Comunicaciones y redes</li>
+                    <li>Modelado de software (Modelo de clases, Casos de uso con UML)</li>
+                    <li>Arquitectura y diseño de interfaces(Uso de Figma)</li>
+                    <li>Bases de datos(Modelo de bases de datos, bases de datos relación y no relacional)</li>
+                    <li>Gestión de proyectos de software (Trello)</li>
+                    <li>Seguridad Informática(Uso de ssh, VPN)</li>
+                    <li>Práctica profesionalizante (uso de docker-compose, flask, mysql, flutter)</li>
+                    <li>Auditoría y calidad de sistemas.</li>
+                </ul>
+            </div>
+            <div class="lista">
+                <ul>
+                    <li>Curso de Html y Css (youtube Holamundo)</li>
+                    <li>Curso de python Youtube( Pildorasinformaticas)</li>
+                </ul>
+            </div>
+            <h2>
+                Experiencias:
+            </h2>
+            <div class="lista">
+                <ul>
+                    <li>Desarrollo de tetris python, tkinter.</li>
+                    <li>Desarrollo de Panadería CR python, Qt5, mysql.</li>
+                    <li>Desarrollo de app móvil CRUD Productos flutter, getx, firebase.</li>
+                    <li>Desarrollo de app móvil control de stock CRUD flutter, riverpood, firebase, flask, python, mysql (completo con una base de datos relacional y no relacional, despliegue de docker-compose backend).</li>
+                    <li class="tNegro">Actualmente colaborando con el sistema IES del instinto vera peñaloza:</li>
+                </ul>
+            </div>
+            <div class="listaEnLista">
+                <ul>
+                    <li>Desarrollo con Flutter(riverpood, go_router, firebase).</li>
+                </ul>
+            </div>
+            <a href="https://github.com/Mauro-drison">github</a>
             </form>
     
         </article>
         <footer>
             <!--Este es un ejemplo de uso de cometario para practicar.-->
             <hr>
-            <h2> En esta parte iria los ling de mi githup y sitios web</h2>
-            <a href="mailto:mr3453195@gmail.com"> correo maruo</a>
+            <a href="mailto:mr3453195@gmail.com"> mr3453195@gmail.com</a>
             <br>
-            <a target="_blank" href="https://github.com/Mauro-drison"> ir a github </a>
+            <a target="_blank" href="https://www.linkedin.com/in/mauro-rodriguez-9baa41287/"> Linkedin </a>
 
         </footer>
     </section>

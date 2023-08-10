@@ -1,3 +1,7 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .oscuro{ 
     background-color: #1f1f1f; 
     color: #f1eded; 
@@ -14,6 +18,8 @@ header {
 }
 .titulo{
     font-size: 30px;
+    color: #f1eded;
+    
 }
 * {
     padding: 0px;
@@ -26,18 +32,46 @@ header {
     float: right;
 }
 .articulo{
-    margin: 0px 150px 30px 150px;
+  
+    min-height: 200px;
+    margin: 0px 90px 30px 90px;
     border-width: 1px;
     border-style: solid;
-    border-color: aquamarine;
+    border-color: rgb(5, 19, 145);
     border-radius: 20px;
     padding: 20px;
-    resize: none;
+    
+    
     /* background-color: red; */
 }
 #up{
     height: 85px;
+    max-width: 1100;
+    padding: 10;
 }
-.imagen1{
+.left{
     float: left;
+}
+.rigth{
+    float:right;
+}
+ul li {
+    padding: 0px 0px 0px 5px;
+    padding-left: 0;
+}
+
+.lista{
+    padding: 0px 0px 0px 30px;
+}
+.listaEnLista{
+    padding: 0px 0px 0px 50px;
+}
+.tNegro{
+    color: rgb(79, 76, 250);
+}
+footer{
+    background-color: #5e5e5e;
+}
+footer h2, footer a{
+    text-decoration: #f1eded;
 }
